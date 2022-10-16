@@ -1,0 +1,30 @@
+<div class="main-list">
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Customer_Id</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Street</th>
+            <th>Postal_Code</th>
+            <th>City</th>
+            <th>Start_date</th>
+            <th>End_date</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody *ngFor="let item of employeeList">
+            <td routerLink="/details/{{item.id}}">{{item.id}}</td>
+            <td>{{item.customerId}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.description}}</td>
+            <td>{{item.street}}</td>
+            <td>{{item.postal_code}}</td>
+            <td>{{item.city}}</td>
+            <td>{{item.startDate}}</td>
+            <td>{{item.endDate}}</td>
+            <td><button class="edit" [routerLink]="['/editEmployee',item.id]">edit</button></td>
+            <td><button class="delete" (click)="deleteEmployee(item.id)">delete</button></td>
+        </tbody>
+    </table>
+</div>

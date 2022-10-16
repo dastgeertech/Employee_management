@@ -1,0 +1,29 @@
+<div class="container">
+    <h1>Profile_Data</h1>
+    <div class="employee_detail" *ngIf="employee">
+        <table>
+            <thead>
+                <th>Id</th>
+                <th>Customer_Id</th>
+                <th>Name</th>
+                <th>description</th>
+                <th>street</th>
+                <th>postal_code</th>
+                <th>city</th>
+                <th>startDate</th>
+                <th>endDate</th>
+            </thead>
+            <tbody>
+                <td>{{employee.id}}</td>
+                <td>{{employee.customerId}}</td>
+                <td>{{employee.name}}</td>
+                <td>{{employee.description}}</td>
+                <td>{{employee.street}}</td>
+                <td>{{employee.postal_code}}</td>
+                <td>{{employee.city}}</td>
+                <td>{{employee.startDate}}</td>
+                <td>{{employee.endDate}}</td>
+            </tbody>
+        </table>
+    </div>
+</div>

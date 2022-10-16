@@ -1,0 +1,30 @@
+.container{
+    padding: 4rem;
+    background-color: lightskyblue;
+}
+h1{
+    text-align: center;
+}
+
+.employee_detail{
+    background-color: aliceblue;
+    border-radius: 2rem;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-spacing: inherit;
+}
+
+thead th {
+    padding: 0.4rem 1rem;
+    background-color: blue;
+    color: #fff;
+
+}
+
+tbody td {
+    padding: 0.4rem 1rem;
+}

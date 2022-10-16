@@ -1,0 +1,41 @@
+.main-list{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: inherit;
+}
+
+thead{
+    background-color: #0030ff;
+}
+
+thead th {
+    padding: 0.4rem 1rem;
+    color: #fff;
+}
+
+tbody td {
+    padding: 1rem 1rem;
+    
+}
+
+.edit{
+    padding: 0.4rem;
+    background-color: #0030ff;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.delete{
+    padding: 0.4rem;
+    background-color: #ff000d;
+    border: none;
+    border-radius: 0.4rem;
+    color: white;
+}

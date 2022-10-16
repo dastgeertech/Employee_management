@@ -1,0 +1,16 @@
+
+.container{
+    background-color: #010e0e;
+    padding: 0.4rem;
+    color: #fff;
+}
+.nav_bar ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
